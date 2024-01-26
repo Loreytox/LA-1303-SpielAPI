@@ -6,7 +6,7 @@ Marek, Cyril, Dorian, Lorenzo
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | Heute haben wir mit dem Backend des Projektes angefangen und konnten schnell vorwärts kommen. Wir haben die Technologie Visual Studio Code benutzt. |
+|  19.01.2024  | 0.0.1   | Heute haben wir mit dem Backend des Projektes angefangen und konnten schnell vorwärts kommen. Wir haben die Technologie Visual Studio Code benutzt. |
 |       | ...     |                                                              |
 |       | 1.0.0   |                                                              |
 
@@ -14,14 +14,20 @@ Marek, Cyril, Dorian, Lorenzo
 
 ### 1.1 Ihr Projekt
 
-Wir werden auf Visual Studio Code eine Spieleapi API programmieren mit 2 Spielen und zwar 
+Wir werden auf Visual Studio Code eine Spieleapi mit Schere, Stein, Papier und Roulette programmieren. 
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1 |  Muss               | Funktional     | Als Benutzer möchte ich die Möglichkeit haben, Schere, Stein, Papier spielen zu können. |
+| 2 |  Muss               | Funktional     | Als Benutzer möchte ich die Möglichkeit haben, Roulette zu spielen. |
+| 3 |  Muss               | Funktional     | Als Benutzer möchte ich die Wahl haben entscheiden zu können, welchen Spiel ich zu erst spielen möchte. |
+| 4 |  Muss               | Funktional     | Als Benutzer möchte ich, dass der Spieler in Schere, Stein, Papier sich immer abwechselt, nachdem man eine Bewegung gemacht hat. |
+| 5 |  Muss               | Funktional     | Als Benutzer möchte ich die Möglichkeit haben, nachdem ich gewonnen oder verloren habe, weiterzuspielen. |
+| 6 |  Muss               | Funktional     | Als Benutzer möchte ich die Möglichkeit haben, bei Roulette eine bestimmte Menge von Geld zu verwetten. |
+| 7 |  Muss               |      | Als Benutzer möchte ich die Möglichkeit haben, auf alle drei Farben einzugehen und ein Zahl wählen. |
+| 8 |  Muss               |      |                                    |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
