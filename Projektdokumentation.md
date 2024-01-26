@@ -26,8 +26,8 @@ Wir werden auf Visual Studio Code eine Spieleapi mit Schere, Stein, Papier und R
 | 4 |  Muss               | Funktional     | Als Benutzer möchte ich, dass der Spieler in Schere, Stein, Papier sich immer abwechselt, nachdem man eine Bewegung gemacht hat. |
 | 5 |  Muss               | Funktional     | Als Benutzer möchte ich die Möglichkeit haben, nachdem ich gewonnen oder verloren habe, weiterzuspielen. |
 | 6 |  Muss               | Funktional     | Als Benutzer möchte ich die Möglichkeit haben, bei Roulette eine bestimmte Menge von Geld zu verwetten. |
-| 7 |  Muss               |      | Als Benutzer möchte ich die Möglichkeit haben, auf alle drei Farben einzugehen und ein Zahl wählen. |
-| 8 |  Muss               |      |                                    |
+| 7 |  Muss               | Funktional     | Als Benutzer möchte ich die Möglichkeit haben, auf alle drei Farben einzugehen und ein Zahl wählen. |
+| 8 |  Muss               | Funktional     | Als Benutzer möchte ich die Möglichkeit haben, neuzustarten oder zu Schere, Stein, Papier wechseln, nachdem ich alles verloren habe. |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
