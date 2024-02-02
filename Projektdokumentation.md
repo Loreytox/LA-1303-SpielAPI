@@ -6,8 +6,8 @@ Marek, Cyril, Dorian, Lorenzo
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|  19.01.2024  | 0.0.1   | Heute haben wir mit dem Backend des Projektes angefangen und konnten schnell vorwärts kommen. Wir haben die Technologie Visual Studio Code benutzt. |
-|       | ...     |                                                              |
+| 19.01.2024  | 0.0.1 | Heute haben wir mit dem Backend des Projektes angefangen und konnten schnell vorwärts kommen. Wir haben die Technologie Visual Studio Code benutzt. |
+| 26.01.2024      | 0.0.2 | An diesem Tag haben wir uns mit Backend beschäftigt. Wir haben schon ein paar funkionalitäten hinzufügen können und haben auch mit Frontend angefangen. |
 |       | 1.0.0   |                                                              |
 
 ## 1 Informieren
@@ -22,21 +22,27 @@ Wir werden auf Visual Studio Code eine Spieleapi mit Schere, Stein, Papier und R
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1 |  Muss               | Funktional     | Als Benutzer möchte ich die Möglichkeit haben, Schere, Stein, Papier spielen zu können. |
 | 2 |  Muss               | Funktional     | Als Benutzer möchte ich die Möglichkeit haben, Roulette zu spielen. |
-| 3 |  Muss               | Funktional     | Als Benutzer möchte ich die Wahl haben entscheiden zu können, welchen Spiel ich zu erst spielen möchte. |
+| 3 |  Muss               | Funktional     | Als Benutzer möchte ich die Wahl haben, um entscheiden zu können, welchen Spiel ich zu erst spielen möchte. |
 | 4 |  Muss               | Funktional     | Als Benutzer möchte ich, dass der Spieler in Schere, Stein, Papier sich immer abwechselt, nachdem man eine Bewegung gemacht hat. |
 | 5 |  Muss               | Funktional     | Als Benutzer möchte ich die Möglichkeit haben, nachdem ich gewonnen oder verloren habe, weiterzuspielen. |
 | 6 |  Muss               | Funktional     | Als Benutzer möchte ich die Möglichkeit haben, bei Roulette eine bestimmte Menge von Geld zu verwetten. |
 | 7 |  Muss               | Funktional     | Als Benutzer möchte ich die Möglichkeit haben, auf alle drei Farben einzugehen und ein Zahl wählen. |
-| 8 |  Muss               | Funktional     | Als Benutzer möchte ich die Möglichkeit haben, neuzustarten oder zu Schere, Stein, Papier wechseln, nachdem ich alles verloren habe. |
-
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  | Die Webseite ist einsatzbereit | "drückt ein Knopf" | Schere, Stein, Papier öffnet sich |
+| 2.1  | Die Webseite ist einsatzbereit | "drückt ein Knopf" | Roulette öffnet sich |
+| 3.1  | Die Webseite ist einsatzbereit |  -  |  "Zwei Knöpfe sind sichtbar"  |
+| 4.1  | Schere, Stein, Papier ist geöffnet | "AI macht eine Bewegung" | Spieler ist daran |
+| 4.2  | Schere, Stein, Papier ist geöffnet | "Spieler macht eine Bewegung" | AI ist daran |
+| 5.1  | Schere, Stein, Papier oder Roulette ist geöffnet und Spieler hat verloren/ kein Geld mehr | "Weiterspielen Option wird gewählt" | Spieler kann weiterspielen |
+| 5.2  | Schere, Stein, Papier oder Roulette ist geöffnet und Spieler hat verloren/ kein Geld mehr | "Spiel verlassen Option wird gewählt" | Spieler kommt zurück ins Menu |
+| 6.1  | Roulette ist offen | "Spieler wählt die Wetten Option und entscheidet sich für eine Menge an Geld" | Spieler hat gewettet |
+| 6.2  | Roulette ist offen | "Spieler wählt die Wetten Option und entscheidet sich für eine Menge an Geld, aber die Menge ist grösser als was man hat" | Spieler bekommt eine Warnung |
+| 7.1  | Roulette ist offen | "Spieler wählt eine Farbe zwischen Schwarz, Rot und Grün" | Spieler kann jetzt wetten |
+| 7.2  | Roulette ist offen | "Spieler wählt ein Zahl" | Spieler kann jetzt wetten |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
