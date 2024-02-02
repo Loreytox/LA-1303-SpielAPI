@@ -8,7 +8,7 @@ Marek, Cyril, Dorian, Lorenzo
 | ----- | ------- | ------------------------------------------------------------ |
 | 19.01.2024  | 0.0.1 | Heute haben wir mit dem Backend des Projektes angefangen und konnten schnell vorwärts kommen. Wir haben die Technologie Visual Studio Code benutzt. |
 | 26.01.2024      | 0.0.2 | An diesem Tag haben wir uns mit Backend beschäftigt. Wir haben schon ein paar funkionalitäten hinzufügen können und haben auch mit Frontend angefangen. |
-|       | 1.0.0   |                                                              |
+|       | 1.0.0   |    |
 
 ## 1 Informieren
 
