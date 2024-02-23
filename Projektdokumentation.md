@@ -7,8 +7,10 @@ Marek, Cyril, Dorian, Lorenzo
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 | 19.01.2024  | 0.0.1 | Heute haben wir mit dem Backend des Projektes angefangen und konnten schnell vorwärts kommen. Wir haben die Technologie Visual Studio Code benutzt. |
-| 26.01.2024      | 0.0.2 | An diesem Tag haben wir uns mit Backend beschäftigt. Wir haben schon ein paar funkionalitäten hinzufügen können und haben auch mit Frontend angefangen. |
-|       | 1.0.0   |    |
+| 26.01.2024  | 0.0.2 | An diesem Tag haben wir uns mit Backend beschäftigt. Wir haben schon ein paar funkionalitäten hinzufügen können und haben auch mit Frontend angefangen. |
+| 02.02.2024  | 0.0.3   |  Heute haben wir eine Datenbank mit hilf des NuGet Pakets "Microsoft.EntityFrameworkCore.SqlServer" estellt. |
+|  |  |  |
+|  |  |  |
 
 ## 1 Informieren
 
