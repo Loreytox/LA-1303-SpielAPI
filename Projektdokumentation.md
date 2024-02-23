@@ -61,7 +61,7 @@ Wir werden auf Visual Studio Code eine Spieleapi mit Schere, Stein, Papier und R
 | 2.A | 19.01.2024 | Lorenzo | Informieren wie man mit Backend ein Roulette machen könnte. | 10' |
 | 2.B | 19.01.-02.02.2024 | Marek, Dorian | Erstellen eines auf Backend basierendes Roulette | 325' |
 | 3.A | 02.02.2024 | Cyril | Erstellen einer Auswahl welche Spiele man spielen will. | 30' |
-| 4.A |  |  |  |  |
+| 4.A | 02.02.2024 | Dorian | Erstellen eines Mechanismus, welcher die Spieler abwechselt. | 20' |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
