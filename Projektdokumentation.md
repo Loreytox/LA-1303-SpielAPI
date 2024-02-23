@@ -8,7 +8,7 @@ Marek, Cyril, Dorian, Lorenzo
 | ----- | ------- | ------------------------------------------------------------ |
 | 19.01.2024  | 0.0.1 | Heute haben wir mit dem Backend des Projektes angefangen und konnten schnell vorwärts kommen. Wir haben die Technologie Visual Studio Code benutzt. |
 | 26.01.2024  | 0.0.2 | An diesem Tag haben wir uns mit Backend beschäftigt. Wir haben schon ein paar funkionalitäten hinzufügen können und haben auch mit Frontend angefangen. |
-| 02.02.2024  | 0.0.3   |  Heute haben wir eine Datenbank mit hilf des NuGet Pakets "Microsoft.EntityFrameworkCore.SqlServer" estellt. |
+| 02.02.2024  | 0.0.3   |  Heute haben wir eine Datenbank mit hilf des NuGet Pakets "Microsoft.EntityFrameworkCore.SqlServer" erstellt. |
 |  |  |  |
 |  |  |  |
 
@@ -22,13 +22,13 @@ Wir werden auf Visual Studio Code eine Spieleapi mit Schere, Stein, Papier und R
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1 |  Muss               | Funktional     | Als Benutzer möchte ich die Möglichkeit haben, Schere, Stein, Papier spielen zu können. |
-| 2 |  Muss               | Funktional     | Als Benutzer möchte ich die Möglichkeit haben, Roulette zu spielen. |
-| 3 |  Muss               | Funktional     | Als Benutzer möchte ich die Wahl haben, um entscheiden zu können, welchen Spiel ich zu erst spielen möchte. |
-| 4 |  Muss               | Funktional     | Als Benutzer möchte ich, dass der Spieler in Schere, Stein, Papier sich immer abwechselt, nachdem man eine Bewegung gemacht hat. |
-| 5 |  Muss               | Funktional     | Als Benutzer möchte ich die Möglichkeit haben, nachdem ich gewonnen oder verloren habe, weiterzuspielen. |
-| 6 |  Muss               | Funktional     | Als Benutzer möchte ich die Möglichkeit haben, bei Roulette eine bestimmte Menge von Geld zu verwetten. |
-| 7 |  Muss               | Funktional     | Als Benutzer möchte ich die Möglichkeit haben, auf alle drei Farben einzugehen und ein Zahl wählen. |
+| 1 |  Muss  | Funktional | Als Benutzer möchte ich die Möglichkeit haben, Schere, Stein, Papier spielen zu können. |
+| 2 |  Muss  | Funktional | Als Benutzer möchte ich die Möglichkeit haben, Roulette zu spielen. |
+| 3 |  Muss  | Funktional | Als Benutzer möchte ich die Wahl haben, um entscheiden zu können, welchen Spiel ich zu erst spielen möchte. |
+| 4 |  Muss  | Funktional | Als Benutzer möchte ich, dass der Spieler in Schere, Stein, Papier sich immer abwechselt, nachdem man eine Bewegung gemacht hat. |
+| 5 |  Muss  | Funktional | Als Benutzer möchte ich die Möglichkeit haben, nachdem ich gewonnen oder verloren habe, weiterzuspielen. |
+| 6 |  Muss  | Funktional | Als Benutzer möchte ich die Möglichkeit haben, bei Roulette eine bestimmte Menge von Geld zu verwetten. |
+| 7 |  Muss  | Funktional | Als Benutzer möchte ich die Möglichkeit haben, auf alle drei Farben einzugehen und ein Zahl wählen. |
 
 ### 1.3 Testfälle
 
@@ -56,8 +56,17 @@ Wir werden auf Visual Studio Code eine Spieleapi mit Schere, Stein, Papier und R
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A | 19.01.2024 | Lorenzo | Informieren wie man mit Backend ein Schere, Stein, Papier Spiel machen könnte. | 10' |
+| 1.B | 19.01.-02.02.2024 | Marek, Cyril | Erstellen eines S., S., P. Spiel | 325' |
+| 2.A | 19.01.2024 | Lorenzo | Informieren wie man mit Backend ein Roulet machen könnte. | 10' |
+| 2.B | 19.01.-02.02.2024 | Marek, Dorian | Erstellen eines auf Backend basierendes Roulette | 325' |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
 
 Total: 
 
