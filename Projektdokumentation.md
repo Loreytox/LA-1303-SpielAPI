@@ -6,11 +6,11 @@ Marek, Cyril, Dorian, Lorenzo
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-| 19.01.2024  | 0.0.1 | Heute haben wir mit dem Backend des Projektes angefangen und konnten schnell vorwärts kommen. Wir haben die Technologie Visual Studio Code benutzt. |
-| 26.01.2024  | 0.0.2 | An diesem Tag haben wir uns mit Backend beschäftigt. Wir haben schon ein paar funkionalitäten hinzufügen können und haben auch mit Frontend angefangen. |
-| 02.02.2024  | 0.0.3   |  Heute haben wir eine Datenbank mit hilf des NuGet Pakets "Microsoft.EntityFrameworkCore.SqlServer" erstellt. |
-|  |  |  |
-|  |  |  |
+| 19.01.2024 | 0.0.1 | Heute haben wir mit dem Backend des Projektes angefangen und konnten schnell vorwärts kommen. Wir haben die Technologie Visual Studio Code benutzt. |
+| 26.01.2024 | 0.0.2 | An diesem Tag haben wir uns mit Backend beschäftigt. Wir haben schon ein paar funkionalitäten hinzufügen können und haben auch mit Frontend angefangen. |
+| 02.02.2024 | 0.0.3   |  Heute haben wir eine Datenbank mit hilf des NuGet Pakets "Microsoft.EntityFrameworkCore.SqlServer" erstellt. |
+| 23.02.2024 | 0.1.0 | Wir konnten heute das Backend fertig programmieren und haben damit begonnen, das Frontend zu erstellen und zu containerisieren. |
+| 01.03.2024 | 1.0.0 | Wir sind mit Backend und Frontend fertig, jedoch konnten wir unser projekt nicht containerisieren, obwohl wir noch Lehrpersonen um Hilfe gebetet haben. |
 
 ## 1 Informieren
 
@@ -29,6 +29,7 @@ Wir werden auf Visual Studio Code eine Spieleapi mit Schere, Stein, Papier und R
 | 5 |  Muss  | Funktional | Als Benutzer möchte ich die Möglichkeit haben, nachdem ich gewonnen oder verloren habe, weiterzuspielen. |
 | 6 |  Muss  | Funktional | Als Benutzer möchte ich die Möglichkeit haben, bei Roulette eine bestimmte Menge von Geld zu verwetten. |
 | 7 |  Muss  | Funktional | Als Benutzer möchte ich die Möglichkeit haben, auf alle drei Farben einzugehen und ein Zahl wählen. |
+| 8 |  Kann  | Erweiterung | Als Benutzer möchte ich ein sauberes und funktionales Frontend sehen. | 
 
 ### 1.3 Testfälle
 
@@ -58,17 +59,15 @@ Wir werden auf Visual Studio Code eine Spieleapi mit Schere, Stein, Papier und R
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A | 19.01.2024 | Lorenzo | Informieren wie man mit Backend ein Schere, Stein, Papier Spiel machen könnte. | 10' |
 | 1.B | 19.01.-02.02.2024 | Marek, Cyril | Erstellen eines S., S., P. Spiel | 325' |
-| 2.A | 19.01.2024 | Lorenzo | Informieren wie man mit Backend ein Roulette machen könnte. | 10' |
-| 2.B | 19.01.-02.02.2024 | Marek, Dorian | Erstellen eines auf Backend basierendes Roulette | 325' |
-| 3.A | 02.02.2024 | Cyril | Erstellen einer Auswahl welche Spiele man spielen will. | 30' |
-| 4.A | 02.02.2024 | Dorian | Erstellen eines Mechanismus, welcher die Spieler abwechselt. | 20' |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-
-Total: 
+| 2.A | 26.01.2024 | Lorenzo | Informieren wie man mit Backend ein Roulette machen könnte. | 10' |
+| 2.B | 26.01.-02.02.2024 | Marek, Dorian | Erstellen eines auf Backend basierendes Roulette | 325' |
+| 3.A | 26.01.2024 | Cyril | Erstellen einer Auswahl welche Spiele man spielen will. | 30' |
+| 4.A | 26.01.2024 | Dorian | Erstellen eines Mechanismus, welcher die Spieler abwechselt. | 20' |
+| 5.A | 26,01.2024 | Lorenzo, Marek | Implementation des "Weiter spielen" Funktion. | 30' |
+| 6.A | 23.02.2024 | Marek | Spieler kann Geld wetten, verlieren oder gewinnen. | 45' |
+| 7.A | 23.02.2024 | Marek, Cyril | Spieler kann auf bestimmte Zahlen, Farben oder Sektoren wetten. | 45' |
+| 8.A | 23.02.2024 | Cyril | Informieren über Roulette, recherchieren von Methoden. | 40' |
+| 8.B | 23.02.2024 - 01.03.2024 | Cyril, Dorian | Implementierung eines funktionfähigen Frontends. | 240' |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
 
