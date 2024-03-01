@@ -38,8 +38,8 @@ Wir werden auf Visual Studio Code eine Spieleapi mit Schere, Stein, Papier und R
 | 1.1  | Die Webseite ist einsatzbereit | "drückt ein Knopf" | Schere, Stein, Papier öffnet sich |
 | 2.1  | Die Webseite ist einsatzbereit | "drückt ein Knopf" | Roulette öffnet sich |
 | 3.1  | Die Webseite ist einsatzbereit |  -  |  "Zwei Knöpfe sind sichtbar"  |
-| 4.1  | Schere, Stein, Papier ist geöffnet | "AI macht eine Bewegung" | Spieler ist daran |
-| 4.2  | Schere, Stein, Papier ist geöffnet | "Spieler macht eine Bewegung" | AI ist daran |
+| 4.1  | Schere, Stein, Papier ist geöffnet | "AI macht eine Bewegung" | Spieler hat gewonnen-/ verloren |
+| 4.2  | Schere, Stein, Papier ist geöffnet | "Spieler macht eine Bewegung" | AI hat gewonnen-/ verloren |
 | 5.1  | Schere, Stein, Papier oder Roulette ist geöffnet und Spieler hat verloren/ kein Geld mehr | "Weiterspielen Option wird gewählt" | Spieler kann weiterspielen |
 | 5.2  | Schere, Stein, Papier oder Roulette ist geöffnet und Spieler hat verloren/ kein Geld mehr | "Spiel verlassen Option wird gewählt" | Spieler kommt zurück ins Menu |
 | 6.1  | Roulette ist offen | "Spieler wählt die Wetten Option und entscheidet sich für eine Menge an Geld" | Spieler hat gewettet |
@@ -47,11 +47,7 @@ Wir werden auf Visual Studio Code eine Spieleapi mit Schere, Stein, Papier und R
 | 7.1  | Roulette ist offen | "Spieler wählt eine Farbe zwischen Schwarz, Rot und Grün" | Spieler kann jetzt wetten |
 | 7.2  | Roulette ist offen | "Spieler wählt ein Zahl" | Spieler kann jetzt wetten |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
-
 ### 1.4 Diagramme
-
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
 
 ## 2 Planen
 
@@ -69,22 +65,25 @@ Wir werden auf Visual Studio Code eine Spieleapi mit Schere, Stein, Papier und R
 | 8.A | 23.02.2024 | Cyril | Informieren über Roulette, recherchieren von Methoden. | 40' |
 | 8.B | 23.02.2024 - 01.03.2024 | Cyril, Dorian | Implementierung eines funktionfähigen Frontends. | 240' |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
-
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Wir haben uns für diese User Stories entschieden, weil wir ein Spiel erstellen wollten. Wir haben zwei verschiedene Spiele kreiert: Schere, Stein, Papier und Roulette. Wir haben die wichtigsten Funktionen für jedes Spiel definiert, wie zum Beispiel die Möglichkeit, eine Bewegung oder eine Wette zu wählen, das Ergebnis zu sehen und weiterzuspielen. Wir haben auch darauf geachtet, dass die User die Freiheit haben, zu entscheiden, welches Spiel sie zuerst spielen möchten. Wir haben die User Stories nach ihrer Priorität geordnet, wobei die Muss-Stories die grundlegenden Anforderungen sind, die wir erfüllen müssen, und die Kann-Stories die zusätzlichen Features sind, die wir implementieren können, wenn wir genug Zeit haben
 
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
-
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+| 1.A | 19.01.2024 | Lorenzo | 10' | 25' |
+| 1.B | 19.01.-02.02.2024 | Marek, Cyril | 325' | 325' |
+| 2.A | 26.01.2024 | Lorenzo | 10' | 30' |
+| 2.B | 26.01.-02.02.2024 | Marek, Dorian | 325' | 325' |
+| 3.A | 26.01.2024 | Cyril | 30' | 40' |
+| 4.A | 26.01.2024 | Dorian | 20' | 15' |
+| 5.A | 26,01.2024 | Lorenzo, Marek | 30' | 30' |
+| 6.A | 23.02.2024 | Marek | 45' | 45' |
+| 7.A | 23.02.2024 | Marek, Cyril | 45' | 60' |
+| 8.A | 23.02.2024 | Cyril | 40' |60' |
+| 8.B | 23.02.2024 - 01.03.2024 | Cyril, Dorian | 240' | 300' |
 
 ## 5 Kontrollieren
 
@@ -92,20 +91,31 @@ Wir werden auf Visual Studio Code eine Spieleapi mit Schere, Stein, Papier und R
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  | 02.02.2024 | NOK | Dorian, Cyril |
+| 2.1  | 02.02.2024 | NOK | Dorian, Cyril |
+| 3.1  | 02.02.2024 | NOK | Dorian, Cyril |
+| 4.1  | 02.02.2024 | OK | Dorian |
+| 4.2  | 02.02.2024 | OK | Dorian |
+| 5.1  | 23.02.2024 | NOK | Lorenzo, Cyril |
+| 5.2  | 23.02.2024 | NOK | Lorenzo, Cyril | 
+| 6.1  | 23.02.2024 | OK | Lorenzo |
+| 6.2  | 23.02.2024 | OK | Lorenzo |
+| 7.1  | 23.02.2024 | OK | Lorenzo |
+| 7.2  | 23.02.2024 | OK | Lorenzo |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Wir haben es nicht geschafft, das Programm zu containerisieren, und konnten daher kein Frontend implementieren. Daher kann Roulette derzeit nur über Swagger verwendet werden, und Schere, Stein, Papier funktioniert nur lokal.
 
-### 5.2 Exploratives Testen
-
-| BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
-| ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
-
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
+// Wir haben Herrn Thut um Hilfe gebeten, da wir zuvor Docker mit ihm verwendet haben, aber auch er konnte unser Problem nicht lösen.
 
 ## 6 Auswerten
 
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+Was wir gut gemacht haben:
+- Teamarbeit
+- Programmierung nach IPERKA
+- Erstellung von Diagrammen und Internetrecherche
+- Jeder hat zumindest ein wenig programmiert
+  
+Was wir nicht gut gemacht haben:
+- Das Frontend hat viel Zeit in Anspruch genommen
+- Die Implementierung eines Frontends wurde unterschätzt
+- Wir konnten nicht erfolgreich mit Docker arbeiten, obwohl wir wussten, wie es ging.
